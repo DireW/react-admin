@@ -44,6 +44,7 @@ const useReferenceArrayInputController = (
         filterToQuery = defaultFilterToQuery,
         input,
         perPage = 25,
+        resource,
         sort: defaultSort = { field: 'id', order: 'DESC' },
         options,
         reference,
